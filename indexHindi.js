@@ -22,12 +22,12 @@ xhr.onload=function(){
                     <h2 class="accordion-header" id="flush-heading${index}">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse${index}" aria-expanded="false" aria-controls="flush-collapse${index}">
                     <img src="${element.image}"  style="width:150px;height:150px;" class="img-thumbnail image-fluid" alt="...">
-                    <h4 class="mx-2"><b>${element.title}</b></h4>
+                    <h5 class="mx-2"><b>${element.title}</b></h5>
                    
                     </button>
                     </h2>
                     <div id="flush-collapse${index}" class="accordion-collapse collapse" aria-labelledby="flush-heading${index}" data-bs-parent="#newsAccordion">
-                    <div class="accordion-body"> <h6><b>${element.description}</b> </h6><a href="${element.url}" class="link-info" style="text-decoration:none;">Read More...</a> </div>
+                    <div class="accordion-body"> <p><b>${element.description}</b> </p><a href="${element.url}" class="link-info" style="text-decoration:none;">Read More...</a> </div>
                     </div>
           </div>`;})
     newsAccordion.innerHTML=html;
