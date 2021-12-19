@@ -21,8 +21,8 @@ xhr.onload=function(){
         `<div class="accordion-item">
                     <h2 class="accordion-header" id="flush-heading${index}">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse${index}" aria-expanded="false" aria-controls="flush-collapse${index}">
-                    <img src="${element.image}"  style="width:150px;height:150px;" class="img-thumbnail" alt="...">
-                    <h3 class="mx-2"><b>${element.title}</b></h3>
+                    <img src="${element.image}"  style="width:150px;height:150px;" class="img-thumbnail image-fluid" alt="...">
+                    <h4 class="mx-2"><b>${element.title}</b></h4>
                    
                     </button>
                     </h2>
